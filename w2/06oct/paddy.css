@@ -1,0 +1,26 @@
+* {
+ box-sizing: border-box;
+ font-family: sans-serif;
+}
+
+input {
+  padding: 20px;
+  width: 400px;
+  font-size: 2em;
+}
+
+.response {
+  padding: 20px;
+  width: 400px;
+  font-size: 2em;
+}
+
+p {
+  font-size: 2em;
+}
+
+#askIt {
+  font-size: 2em;
+  padding: 20px;
+  /*width: */
+}

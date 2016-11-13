@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>STARCBUCKS</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>STARBUCKS</h1>
+    <h2>ONLINE COFFE ORDER</h2>
+
+    <form class="" action="/coffee" method="get">
+
+
+      <input type="text" name="customer_name" value="" placeholder="Enter Name:">
+
+      <select name="coffee_type">
+        <option value="Latte">Coffee Type</option>
+        <option value="Latte">Latte</option>
+        <option value="Flat White">Flat White</option>
+        <option value="Long Black">Long Black</option>
+        <option value="Short Black">Short Black</option>
+        <option value="Piccolo">Piccolo</option>
+        <option value="Ristretto">Ristretto</option>
+        </div>
+      <select>
+
+      <select name="sugars">
+        <option value="0"># Sugars</option>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        </div>
+      <select>
+
+      <select name="size">
+        <option value="regular">Size</option>
+        <option value="regular">Regular</option>
+        <option value="large">Large</option>
+        <option value="jumbo">Jumbo</option>
+        </div>
+      <select>
+
+      <select name="strength">
+        <option value="single shot">Strength</option>
+        <option value="single shot">Single Shot</option>
+        <option value="double shot">Double Shot</option>
+        <option value="triple shot">Triple Shot</option>
+        </div>
+      <select>
+
+      <button name="button">PLACE ORDER</button>
+
+    </form>
+
+  </body>
+</html>
+
+
+
+<!-- # Starbucks
+
+Write a program that holds on to coffee orders.
+
+```
+c1 = Coffee.new('latte','2 sugars','medium','Darryl')
+
+```
+
+Write the `.to_s` method for this class so when you `puts c1` you will have "Darryl's latte, medium, 2 sugars."
+
+# Extension
+
+1. Starbucks always gets names wrong, however. Make the name a bad misspelling of the actual name when you create the order.
+
+```
+puts c1
+# => "Barrel's latte, medium, 2 sugars."
+```
+
+2. When you make a new order, you have to wait for coffee. When you create the new order, there should be a waiting time of anywhere between 2-5 minutes. You should be able to check if it's ready by calling `c1.ready?` and have the program yell out the order and the misspelled name.
+
+3. You should be able to mark the coffee as collected with `c1.collected = true`.
+
+4. List all of the coffees not collected.
+
+5. Add options to the coffee order, eg shot of hazelnut, whipped cream, chocolate syrup.
+
+# Extension 2
+
+Now do it with js. -->

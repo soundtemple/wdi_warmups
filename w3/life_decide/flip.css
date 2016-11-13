@@ -1,0 +1,35 @@
+* {
+  font-family: sans-serif;
+}
+button {
+    border: none;
+    background: url('coin.png') no-repeat top left;
+    /*padding: 300px;*/
+    width: 100px;
+    height: 100px;
+}
+
+body {
+  width: 75%;
+  margin: 0 auto;
+}
+
+img {
+  width: 30%;
+}
+
+.totals {
+  float: right;
+}
+
+#tally {
+  max-height: 300px;
+  overflow: scroll;
+  border: none;
+  width: 50%;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>ORDER DETAILS</title>
+  </head>
+  <body>
+    <h1>ORDER DETAILS FOR <%= @name %></h1>
+
+    <p> <%= @order_details %> </p>
+    <p>Ordered at: <%= @@orders[0].order_time %> </p>
+    <p>Ready at:  <%= @@orders[0].ready_time %> </p>
+    <p>Collected: <%= @@orders[0].collected %> </p>
+
+
+
+
+  <a href="/">ANOTHER ORDER?</a>
+  </body>
+</html>

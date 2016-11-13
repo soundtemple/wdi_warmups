@@ -1,0 +1,74 @@
+* {
+  font-family: 'Source Code Pro', monospace;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  width: 90%;
+  background-image: url("code_bg.jpg");
+}
+
+h1 {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 2.5em;
+}
+
+h2 {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.messageResult {
+  color: rgba(0, 0, 0, 1);
+  width: 50%;
+  background: grey;
+  opacity: 0.4;
+  font-size: 1.5em;
+  border-radius: 10px;
+}
+
+.shiftMessage {
+  color: rgba(255, 0, 0, 1);
+  width: 50%;
+  background: grey;
+  opacity: 0.4;
+  font-size: 1.5em;
+  border-radius: 10px;
+  text-align: center;
+  /*padding: 3%;*/
+  margin: 1%;
+}
+
+textarea {
+  background: grey;
+  width: 50%;
+  padding: 3%;
+  margin: 1%;
+  display: block;
+  font-size: 1.3em;
+  opacity: 0.5;
+  border-radius: 10px;
+}
+
+button {
+  font-size: 2em;
+  padding: 3%;
+  margin: 1%;
+  color: grey;
+  background-color: #0c2430;
+  border: none;
+  border-radius: 10px;
+}
+
+input {
+  padding: 3%;
+  margin: 1%;
+  width: 10%;
+  font-size: 1.7em;
+  border: none;
+  background-color: grey;
+  text-align: center;
+  opacity: 0.6;
+  border-radius: 10px;
+}
