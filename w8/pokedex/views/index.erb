@@ -1,0 +1,14 @@
+<h1>POKEDEX</h1>
+
+<a href="/new">ADD NEW</a>
+
+<div class="collection">
+  <% @collection.each do |pokemon| %>
+    <div class="pokemon">
+        <div class="species"><p><%= pokemon['species'] %></p></div>
+        <div class="nickname"><p><%= pokemon['nickname'] %></p></div>
+        <div class="level"><p><%= pokemon['level'] %></p></div>
+        <hr>
+    </div>
+  <% end %>
+</div>
