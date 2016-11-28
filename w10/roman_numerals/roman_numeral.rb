@@ -19,17 +19,17 @@ def convert_to_roman(number)
   if number >= 100
     one_hundreds = number / 100
     number = number%100
-    result.push(roman_100s[one_hundreds - 1])
+    result << roman_100s[one_hundreds - 1]
   end
 
   if number >= 10
     tens = number / 10
-    result.push(roman_10s[tens - 1])
+    result << roman_10s[tens - 1]
     number = number%10
   end
 
   if number < 10 && number > 0
-    result.push(roman_1s[number - 1])
+    result << roman_1s[number - 1]
   end
 
   result = result.join("")
